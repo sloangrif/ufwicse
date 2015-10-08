@@ -83,10 +83,6 @@ a img{
     color: #767777 !important;
   }
 
-  .android-header .mdl-layout__drawer-button {
-    background: transparent;
-    color: #767777;
-  }
 
   .android-header .mdl-navigation__link {
     color: #757575;
@@ -170,12 +166,6 @@ a img{
 
   .android-drawer span.mdl-navigation__link.mdl-navigation__link {
     color: #8bc34a;
-  }
-
-  .android-drawer .mdl-layout-title {
-    position: relative;
-    background: #6ab344;
-    height: 160px;
   }
 
     .android-drawer .android-logo-image {

@@ -89,6 +89,7 @@ a img{
 .android-header {
   overflow: visible;
   background-color: white;
+
 }
 
   .android-header .material-icons {
@@ -98,7 +99,7 @@ a img{
 
   .android-header .mdl-navigation__link {
     color: #757575;
-    font-weight: 700;
+    /*font-weight: 700;*/
     font-size: 14px;
   }
 
@@ -187,10 +188,10 @@ a img{
 
 .android-be-together-section {
   position: relative;
-  height: 800px;
+  height: 545px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/slide01.jpg') center 30% no-repeat;
+  /*background: url('images/slide01.jpg') center 30% no-repeat;*/
   background-size: cover;
 }
 
@@ -210,7 +211,22 @@ a img{
   font-size: 21px;
   padding-top: 24px;
 }
-
+.about-section {
+  height: 70%;
+  width: 70%;
+  float:left;
+  padding-right: 20px;
+}
+.about-text {
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 40px;
+  font-size: 17px;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.5;
+  color: #767777;
+  font-weight: 300;
+}
 .android-create-character {
   font-size: 21px;
   padding-top: 400px;

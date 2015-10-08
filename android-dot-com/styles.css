@@ -15,10 +15,10 @@
  */
 
 @font-face {
-  font-family: "And Black";
-  src: url("myfont-webfont.eot?#iefix") format('embedded-opentype'),
+  font-family: "Open Sans";
+  /*src: url("myfont-webfont.eot?#iefix") format('embedded-opentype'),
        url("fonts/and_black.woff") format('woff'),
-       url("fonts/and_black.ttf") format('truetype');
+       url("fonts/and_black.ttf") format('truetype');*/
 }
 
 body {
@@ -133,7 +133,7 @@ a img{
   }
 
     .android-navigation .mdl-navigation__link:hover {
-      border-bottom: 4px solid #8bc34a;
+      border-bottom: 4px solid #f8ad9b;
     }
 
   .android-search-box {
@@ -193,7 +193,7 @@ a img{
 }
 
 .android-font {
-  font-family: 'And Black', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
   color: #767777;
   font-weight: 300;

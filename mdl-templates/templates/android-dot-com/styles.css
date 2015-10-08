@@ -54,12 +54,24 @@ a img{
   width: auto;
 }
 
+.social{
+	height: 100px;
+	width: 100px;
+	margin: 50px;
+}
+
+.socialnet{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
 .android-fab {
   position: absolute;
   right: 20%;
   bottom: -26px;
   z-index: 3;
-  background: #64ffda !important;
+  background: #ed5828 !important;
   color: black !important;
 }
 
@@ -69,8 +81,8 @@ a img{
 
 
 .android-logo-image {
-  height: 28px;
-  width: 110px;
+  height: 40px;
+  width: 140px;
 }
 
 
@@ -214,6 +226,7 @@ a img{
   position: relative;
   padding-top: 60px;
   padding-bottom: 80px;
+  color:ed5828;
 }
 
 .android-screens {
@@ -305,9 +318,9 @@ a img{
 
 .android-wear-section {
   position: relative;
-  background: url('images/wear.png') center top no-repeat;
+  background: #63659e /*url('images/gator.jpg')*/ center top no-repeat;
   background-size: cover;
-  height: 800px;
+  height: 600px;
 }
 
 .android-wear-band {

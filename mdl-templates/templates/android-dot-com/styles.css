@@ -195,6 +195,31 @@ a img{
   background-size: cover;
 }
 
+.android-be-together-section-about {
+  position: relative;
+  height: 700px;
+  width: auto;
+
+  background: 
+
+    
+    linear-gradient(
+      rgba(0, 0, 0, 0), 
+      rgba(0, 0, 0, 0.6)
+    ),
+  url('images/vday.JPG') center 30% no-repeat;
+  
+  /*background: 
+    
+    linear-gradient(
+      rgba(255, 0, 0, 0.25), 
+      rgba(255, 0, 0, 0.25)
+    );*/
+  background-size: cover;
+
+
+}
+
 .android-font {
   font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;

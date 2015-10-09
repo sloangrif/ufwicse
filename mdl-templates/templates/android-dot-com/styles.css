@@ -31,12 +31,12 @@ a img{
 }
 
 ::-moz-selection {
-  background-color: #6ab344;
+  background-color: #ED5828;
   color: #fff;
 }
 
 ::selection {
-  background-color: #6ab344;
+  background-color: #ED5828;
   color: #fff;
 }
 
@@ -55,9 +55,12 @@ a img{
 }
 
 .social{
-	height: 100px;
-	width: 100px;
-	margin: 50px;
+	height: 75px;
+	width: 75px;
+	margin-bottom: 7px;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .socialnet{
@@ -361,7 +364,7 @@ a img{
   position: relative;
   background: #63659e /*url('images/gator.jpg')*/ center top no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 450px;
 }
 
 .android-wear-band {

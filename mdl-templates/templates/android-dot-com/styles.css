@@ -30,6 +30,113 @@ a img{
   border: 0px;
 }
 
+/*.board_member1 {
+ 
+ width: 200px;
+ height: 200px;
+ background-image: url('images/killian.jpg');
+ background-size: cover;
+
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+  
+
+}
+.board_member2 {
+ 
+ width: 200px;
+ height: 200px;
+ background-image: url('images/sahar.jpg');
+ background-size: cover;
+
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+  
+
+}
+
+#profile-card {
+  padding-left: 100px;
+  padding-top: 15px;
+  background-color: #fff2ec;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 100px;
+  
+}
+
+#members2 {
+  
+  
+  margin-right: 100px;
+  padding-top: 15px;
+  background-color: #fff2ec;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  
+  
+}
+
+.member-text {
+  text-align: center;
+  padding-top: 210px;
+}
+*/
+h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.row {
+  
+  padding-top: 30px;
+  padding-bottom: 130px;
+ }
+ 
+.row img{
+  
+  margin-left: 80px;
+  float: none;
+  height: 60%;
+  width: 60%;
+  
+}
+#row2 img{
+  padding-left: 80px;
+  padding-top: 300px;
+  margin-left: 180px;
+  height: 90% ;
+  width: 90%  ;
+  
+}
+#row2 {
+  padding-bottom: 500px;
+  
+}
+
+#row3 img{
+  padding-left: 80px;
+  padding-top: 150px;
+  margin-left: 180px;
+  height: 90% ;
+  width: 90%  ;
+ 
+}
+.row h3 {
+  text-align: center;
+
+ }
+
+#row2 h3{
+  margin-left: 300px;
+}
+#row3 h3{
+  margin-left: 350px;
+}
+
 ::-moz-selection {
   background-color: #ED5828;
   color: #fff;

@@ -46,7 +46,7 @@ a img{
 
 .android-header .mdl-menu__container {
   z-index: 50;
-  margin: 0 !important;
+  margin: 0;
 }
 
 
@@ -223,6 +223,32 @@ a img{
 
 }
 
+.android-be-together-section-events {
+  position: relative;
+  height: 550px;
+  width: auto;
+  margin-bottom: 100px;
+
+  background: 
+
+    
+    linear-gradient(
+      rgba(0, 0, 0, 0), 
+      rgba(0, 0, 0, 0.6)
+    ),
+  url('images/events banner.PNG') center 30% no-repeat;
+  
+  /*background: 
+    
+    linear-gradient(
+      rgba(255, 0, 0, 0.25), 
+      rgba(255, 0, 0, 0.25)
+    );*/
+  background-size: cover;
+
+
+}
+
 .android-font {
   font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
@@ -245,6 +271,31 @@ a img{
   float:left;
   padding-right: 20px;
 }
+
+.swag-section {
+  height: 560px;
+  width: 840px;
+  float:left;
+  padding-right: 20px;
+}
+
+.swag-section2 {
+  height: 350px;
+  width: 600px;
+  float:right;
+  padding-right: 100px;
+  padding-top: -40px;
+}
+
+.swag-section3 {
+  height: 250px;
+  width: 400px;
+  float:left;
+  padding-right: 100px;
+  padding-left:250px;
+  padding-top:100px;
+}
+
 .about-text {
   padding-top: 30px;
   padding-left: 60px;
@@ -364,7 +415,7 @@ a img{
   position: relative;
   background: #63659e /*url('images/gator.jpg')*/ center top no-repeat;
   background-size: cover;
-  height: 450px;
+  height: 420px;
 }
 
 .android-wear-band {
@@ -592,8 +643,16 @@ a img{
     margin-left: 0;
     padding: 16px;
   }
+  
+  .responsive-iframe-container{
+	width: 10% !important;
+	text-align: center;
+	margin-bottom: 200px;
+  }
 
   .android-footer .mdl-mega-footer--bottom-section {
     display: none;
   }
 }
+
+

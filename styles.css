@@ -30,62 +30,7 @@ a img{
   border: 0px;
 }
 
-/*.board_member1 {
- 
- width: 200px;
- height: 200px;
- background-image: url('images/killian.jpg');
- background-size: cover;
 
- border-radius: 100px;
- -webkit-border-radius: 100px;
- -moz-border-radius: 100px;
-  
-
-}
-.board_member2 {
- 
- width: 200px;
- height: 200px;
- background-image: url('images/sahar.jpg');
- background-size: cover;
-
- border-radius: 100px;
- -webkit-border-radius: 100px;
- -moz-border-radius: 100px;
-  
-
-}
-
-#profile-card {
-  padding-left: 100px;
-  padding-top: 15px;
-  background-color: #fff2ec;
-  height: 400px;
-  width: 300px;
-  border-radius: 10px;
-  margin-left: 100px;
-  
-}
-
-#members2 {
-  
-  
-  margin-right: 100px;
-  padding-top: 15px;
-  background-color: #fff2ec;
-  height: 400px;
-  width: 300px;
-  border-radius: 10px;
-  
-  
-}
-
-.member-text {
-  text-align: center;
-  padding-top: 210px;
-}
-*/
 h1 {
   text-align: center;
   padding-bottom: 50px;
@@ -95,7 +40,6 @@ h1 {
   
   justify-content: center;
   
-  padding-bottom: 80px;
  }
  
 .row img{
@@ -116,7 +60,7 @@ h1 {
 #row2 .row {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+ 
 
 }
 #row3 .row {
@@ -150,18 +94,18 @@ h1 {
 }
 
 .social{
-	height: 75px;
-	width: 75px;
-	margin-bottom: 7px;
-	margin-top: 50px;
-	margin-left: 50px;
-	margin-right: 50px;
+  height: 75px;
+  width: 75px;
+  margin-bottom: 7px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .socialnet{
-	margin-top: 10px;
-	margin-bottom: 10px;
-	text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .android-fab {
@@ -740,9 +684,9 @@ h1 {
   }
   
   .responsive-iframe-container{
-	width: 10% !important;
-	text-align: center;
-	margin-bottom: 200px;
+  width: 10% !important;
+  text-align: center;
+  margin-bottom: 200px;
   }
 
   .android-footer .mdl-mega-footer--bottom-section {

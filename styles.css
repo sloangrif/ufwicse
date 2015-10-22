@@ -89,11 +89,13 @@ a img{
 h1 {
   text-align: center;
   padding-bottom: 50px;
+
 }
 .row {
   
-  padding-top: 30px;
-  padding-bottom: 130px;
+  justify-content: center;
+  
+  padding-bottom: 80px;
  }
  
 .row img{
@@ -104,37 +106,23 @@ h1 {
   width: 60%;
   
 }
-#row2 img{
-  padding-left: 80px;
-  padding-top: 300px;
-  margin-left: 180px;
-  height: 90% ;
-  width: 90%  ;
-  
-}
-#row2 {
-  padding-bottom: 500px;
-  
-}
 
-#row3 img{
-  padding-left: 80px;
-  padding-top: 150px;
-  margin-left: 180px;
-  height: 90% ;
-  width: 90%  ;
- 
-}
 .row h3 {
   text-align: center;
 
  }
 
-#row2 h3{
-  margin-left: 300px;
+
+#row2 .row {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+
 }
-#row3 h3{
-  margin-left: 350px;
+#row3 .row {
+  
+  display: flex;
+  justify-content: center;
 }
 
 ::-moz-selection {

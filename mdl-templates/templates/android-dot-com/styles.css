@@ -30,62 +30,7 @@ a img{
   border: 0px;
 }
 
-/*.board_member1 {
- 
- width: 200px;
- height: 200px;
- background-image: url('images/killian.jpg');
- background-size: cover;
 
- border-radius: 100px;
- -webkit-border-radius: 100px;
- -moz-border-radius: 100px;
-  
-
-}
-.board_member2 {
- 
- width: 200px;
- height: 200px;
- background-image: url('images/sahar.jpg');
- background-size: cover;
-
- border-radius: 100px;
- -webkit-border-radius: 100px;
- -moz-border-radius: 100px;
-  
-
-}
-
-#profile-card {
-  padding-left: 100px;
-  padding-top: 15px;
-  background-color: #fff2ec;
-  height: 400px;
-  width: 300px;
-  border-radius: 10px;
-  margin-left: 100px;
-  
-}
-
-#members2 {
-  
-  
-  margin-right: 100px;
-  padding-top: 15px;
-  background-color: #fff2ec;
-  height: 400px;
-  width: 300px;
-  border-radius: 10px;
-  
-  
-}
-
-.member-text {
-  text-align: center;
-  padding-top: 210px;
-}
-*/
 h1 {
   text-align: center;
   padding-bottom: 50px;
@@ -95,7 +40,6 @@ h1 {
   
   justify-content: center;
   
-  padding-bottom: 50px;
  }
  
 .row img{

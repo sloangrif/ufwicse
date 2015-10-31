@@ -94,18 +94,18 @@ h1 {
 }
 
 .social{
-  height: 75px;
-  width: 75px;
-  margin-bottom: 7px;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+	height: 75px;
+	width: 75px;
+	margin-bottom: 7px;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .socialnet{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
 }
 
 .android-fab {
@@ -684,9 +684,9 @@ h1 {
   }
   
   .responsive-iframe-container{
-  width: 10% !important;
-  text-align: center;
-  margin-bottom: 200px;
+	width: 10% !important;
+	text-align: center;
+	margin-bottom: 200px;
   }
 
   .android-footer .mdl-mega-footer--bottom-section {

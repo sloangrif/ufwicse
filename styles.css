@@ -320,9 +320,9 @@ h1 {
 
 .android-be-together-section-events {
   position: relative;
-  height: 550px;
+  height: 650px;
   width: auto;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 
   background: 
 
@@ -331,7 +331,7 @@ h1 {
       rgba(0, 0, 0, 0), 
       rgba(0, 0, 0, 0.6)
     ),
-  url('images/events banner.png') center 30% no-repeat;
+  url('images/cookies.jpg') center 30% no-repeat;
   
   /*background: 
     
@@ -342,6 +342,31 @@ h1 {
   background-size: cover;
 
 
+}
+
+.swagpage {
+  position: relative;
+  height: 300px;
+  width: auto;
+  margin-bottom: 0px;
+
+  background: 
+
+  url('images/gator.jpg') center 30% no-repeat;
+  
+  /*background: 
+    
+    linear-gradient(
+      rgba(255, 0, 0, 0.25), 
+      rgba(255, 0, 0, 0.25)
+    );*/
+  background-size: cover;
+}
+
+h2{
+	color: white;
+	text-align:center;
+	margin-top:120px;
 }
 
 .android-font {
@@ -367,10 +392,91 @@ h1 {
   padding-right: 20px;
 }
 
-.swag-section {
-  height: 560px;
-  width: 840px;
+@media(min-width:768px) and (max-width:1024px) and (orientation:landscape){
+/*still need to implement portrait and landscape mode*/
+.about-section {
+  height: 53vw;
+  width: 75vw;
   float:left;
+  padding-right: 20px;
+}
+
+.about-text {
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 40px;
+  font-size: 2vh !important;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.2 !important;
+  color: #767777;
+  font-weight: 300;
+}
+
+.android-wear-band-text {
+  max-width: 800px;
+  margin-left: 10vw !important;
+  padding: 24px;
+  text-align: left;
+  color: white;
+}
+
+.android-be-together-section {
+  position: relative;
+  height: 545px;
+  width: auto;
+  background-color: #f3f3f3;
+  /*background: url('images/slide01.jpg') center 30% no-repeat;*/
+  background-size: cover;
+}
+
+}
+
+@media(min-width:768px) and (max-width:1024px) and (orientation:portrait){
+/*still need to implement portrait and landscape mode*/
+.about-section {
+  height: 60vw;
+  width: 100vw;
+  float:left;
+  padding-right: 20px;
+  padding-bottom: 2vh !important;
+}
+
+.about-text {
+  padding-top: 30vh !important;
+  padding-left: 60px;
+  padding-right: 40px;
+  font-size: 2vh !important;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.2 !important;
+  color: #767777;
+  font-weight: 300;
+}
+
+.android-wear-band-text {
+  max-width: 800px;
+  margin-left: 10vw !important;
+  padding: 24px;
+  text-align: left;
+  color: white;
+}
+
+.android-be-together-section {
+  position: relative;
+  height: 75vh !important;
+  width: auto;
+  background-color: #f3f3f3;
+  /*background: url('images/slide01.jpg') center 30% no-repeat;*/
+  background-size: cover;
+}
+
+}
+
+.swag-section {
+  height: 450px;
+  width: 730px;
+  float:left;
+  margin-top: 50px;
+  padding-left:60px;
   padding-right: 20px;
 }
 
@@ -379,7 +485,7 @@ h1 {
   width: 600px;
   float:right;
   padding-right: 100px;
-  padding-top: -40px;
+  padding-top:50px;
 }
 
 .swag-section3 {
@@ -387,8 +493,9 @@ h1 {
   width: 400px;
   float:left;
   padding-right: 100px;
-  padding-left:250px;
+  padding-left:150px;
   padding-top:100px;
+  border-radius:100px;
 }
 
 .about-text {

@@ -174,11 +174,14 @@ h1 {
   }
   .android-navigation-container {
     width: 70vw;
+    height: 10vh;
     display: inline;
     font-size: 1vh;
+
   }
   .android-navigation {
     width: 70vw;
+
   }
    .android-header .mdl-navigation__link {
     color: #767777;
@@ -195,6 +198,7 @@ h1 {
     margin-left: -8vw;
     margin-right: -10vw;
   }
+  
 
 }
 
@@ -773,6 +777,33 @@ h1 {
   }
 
 }
+.event-landing{
+  background-color: #2bfcc9;
+  width: 90vw;
+  margin-left: 5vw; 
+  border-radius: 10px;
+  margin-bottom: 5vh;
+  margin-top: 2vh;
+}
+.event-landing h1{
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 10vh;
+  margin-bottom: -5vh;
+  padding-top: 8vh
+}
+.event-landing h2{
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 6vh;
+  margin-top: 5vh;
+  padding-bottom: 10vh;
+  
+}
+iframe {
+  width: 90vw;
+  height: 80vh;
+  margin-left: 5vw;
+}
+
 
 ::-moz-selection {
   background-color: #ED5828;

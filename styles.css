@@ -34,95 +34,744 @@ a img{
 
 h1 {
   text-align: center;
-  padding-bottom: 50px;
+  
 }
 
 .top-banner h1 {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 0vh;
   font-family: 'Amatic SC', sans-serif;
   font-size: 8vh;
   text-decoration: underline;
 }
 
 .row {
-  padding-top: 30px;
+  padding-top: 5vh;
   justify-content: center;
   
- }
- 
- .row-button {
-  
-  justify-content: center;
-  margin-left: 20%;
-  padding-top: 40px;
-
  }
  
 .mod {
   background-color: #fff2ec;
   border-radius: 10px;
-  width: 350px;
-  height: 250px;
-  margin-left: 30px;
+  width: 25vw;
+  height: 15vw;
+  margin-left: 3vw;
 }
+
 .row img{
   
-  margin-left: 80px;
+  margin-left: 6vw;
   float: none;
-  height: 60%;
-  width: 60%;
+  height: 34vh;
+  width: 34vh;
   
 }
 
 .row h3 {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 2vh;
   font-family: 'Open Sans', sans-serif;
   font-size: 3vh;
  }
+
 .row h4 {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   font-family: 'Amatic SC', sans-serif;
   font-size: 4.5vh;
 }
 
-
-.btn-group {
-  padding-right: 15px;
-}
-
-
 .round-button {
   position: relative;
   display: inline-block;
-  margin-top: 30px;
-  margin-left: 90px;
-
-
+  margin-left: 6.5vw;
 }
+
 .round-button img{
-  height: 4em;
+  height: 8vh;
   width: auto;
   position: relative;
   display: inline-block;
-  margin-left: 10px; 
-
-
+  margin-left: 1vw; 
 }
 
 #row2 .row {
   display: flex;
   justify-content: center;
- 
-
 }
+
 #row3 .row {
-  
   display: flex;
   justify-content: center;
+}
+@media (min-width: 1900px) and (max-width: 2000px) {
+  .android-navigation-container {
+    width: 70vw;
+    display: inline;
+    font-size: 1vh;
+    padding-top: 4vh;
+  }
+  .android-navigation {
+    width: 70vw;
+
+  }
+   .android-header .mdl-navigation__link {
+    color: #767777;
+    /*font-weight: 700;*/
+    font-size: 1.9vh !important;
+  }
+  .android-logo-image {
+  margin-top: 4vh;
+  height: 5vh !important;
+  width: 17.5vh !important;
+  
+  }
+  .android-header {
+  overflow: visible;
+  background-color: white;
+  height: 10vh;
+}
+}
+@media (min-width: 800px) and (max-width: 900px){
+  .row {
+    margin-left: 4vw;
+  }
+  .col-xs-6 {
+    margin-right: -18vw;
+  }
+  .mod {
+    width: 25vw;
+    height: 15vw;
+    margin-left: 1vw;
+  }
+  .row img{
+  margin-left: 3vw;
+  height: 26vh;
+  width: 26vh;
+  }
+  .round-button {
+  position: relative;
+  display: inline-block;
+  margin-left: 6vw;
+  }
+  .round-button img{
+  height: 5vh;
+  width: auto;
+  margin-left: 1vw; 
+  }
+  .row h4 {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 3.5vh;
+  }
+  .row h3 {
+  padding-top: 2vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5vh;
+  }
+  .android-navigation-container {
+    width: 70vw;
+    display: inline;
+    font-size: 1vh;
+  }
+  .android-navigation {
+    width: 70vw;
+  }
+   .android-header .mdl-navigation__link {
+    color: #767777;
+    /*font-weight: 700;*/
+    font-size: 1.7vh !important;
+  }
+  #row2 .col-xs-6{
+    padding-left: 8vw;
+    margin-left: -8vw;
+    margin-right: -10vw;
+  }
+  #row3 .col-xs-6{
+    padding-left: 8vw;
+    margin-left: -8vw;
+    margin-right: -10vw;
+  }
+
+}
+
+
+
+@media (min-width: 1000px) and (max-width: 1200px) and (orientation: landscape) {
+ 
+  .row {
+    margin-left: 0vw;
+  }
+ .col-xs-6 {
+    margin-right: -1vw;
+  }
+  .mod {
+    width: 30vw;
+    height: 25vw;
+    margin-left: 1vw;
+  }
+  .row img{
+  margin-left: 3vw;
+  height: 30vh;
+  width: 30vh;
+  }
+  .round-button {
+  position: relative;
+  display: inline-block;
+  padding-top: 4vh;
+  margin-left: 8vw;
+  }
+  .round-button img{
+  height: 7vh;
+  width: auto;
+  margin-left: 1vw; 
+  }
+  .row h4 {
+  padding-top: 4vh;
+  padding-bottom: 1vh;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 5vh;
+  }
+  .row h3 {
+  padding-top: 2vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.5vh;
+  }
+  .android-navigation-container {
+    width: 70vw;
+    display: inline;
+    font-size: 1vh;
+  }
+  .android-navigation {
+    width: 70vw;
+  }
+   .android-header .mdl-navigation__link {
+    color: #767777;
+    /*font-weight: 700;*/
+    font-size: 1.7vh !important;
+  }
+
+}
+
+@media (min-width: 700px) and (max-width: 799px) and (orientation: portrait) {
+  .row {
+    margin-left: 0vw;
+  }
+  .col-xs-6 {
+    margin-right: -18vw;
+  }
+  .mod {
+    width: 30vw;
+    height: 25vw;
+    margin-left: 1vw;
+  }
+  #row2 .mod{
+    width: 35vw;
+    height: 25vw;
+    margin-left: 1vw;
+
+  }
+  #row2 .col-xs-6{
+    margin-left: -2vw;
+    margin-right: -12vw;
+  }
+  #row2 .row img{
+    margin-left: 6vw;
+
+  }
+
+  #row3 .mod{
+    width: 35vw;
+    height: 25vw;
+    margin-left: 1vw;
+
+  }
+  #row3 .col-xs-6{
+    margin-left: -2vw;
+    margin-right: -12vw;
+  }
+  #row3 .row img{
+    margin-left: 6vw;
+
+  }
+  #row2 #row3 .round-button{
+    margin-left: 8vw !important;
+  }
+
+  .row img{
+  margin-left: 3vw;
+  height: 20vh;
+  width: 20vh;
+  }
+  .round-button {
+  position: relative;
+  display: inline-block;
+  margin-left: 6vw;
+  }
+  .round-button img{
+  height: 5vh;
+  width: auto;
+  margin-left: 2vw !important; 
+  }
+  .row h4 {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 3.5vh;
+  }
+  .row h3 {
+  padding-top: 2vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5vh;
+  }
+  .android-navigation-container {
+    width: 70vw;
+    display: inline;
+    font-size: 1vh;
+  }
+  .android-navigation {
+    width: 70vw;
+  }
+   .android-header .mdl-navigation__link {
+    color: #767777;
+    /*font-weight: 700;*/
+    font-size: 1.7vh !important;
+  }
+  
+
+}
+
+@media (min-width: 600px) and (max-width: 799px) and (orientation: landscape) {
+  .row {
+    margin-left: -1vw;
+  }
+  .col-xs-6 {
+    margin-right: -20vw;
+  }
+  .mod {
+    width: 30vw;
+    height: 20vw;
+    margin-left: 2vw;
+  }
+  .row img{
+  margin-left: 7vw;
+  height: 35vh;
+  width: 35vh;
+  }
+  .round-button {
+  position: relative;
+  display: inline-block;
+  margin-left: 6vw;
+  }
+  .round-button img{
+  height: 9vh;
+  width: auto;
+  margin-left: 1vw; 
+  }
+  .row h4 {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 5.5vh;
+  }
+  .row h3 {
+  padding-top: 2vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4vh;
+  }
+  .android-navigation-container {
+    width: 70vw;
+    display: inline;
+    font-size: 1vh;
+  }
+  .android-navigation {
+    width: 70vw;
+  }
+   .android-header .mdl-navigation__link {
+    color: #767777;
+    /*font-weight: 700;*/
+    font-size: 1.9vh !important;
+  }
+  .android-logo-image {
+  height: 6vh !important;
+  width: 21vh !important;
+  margin-right: 12vw !important;
+  margin-left: -6vw !important;
+  }
+
+}
+
+@media (min-width: 400px) and (max-width: 500px) and (orientation: portrait) {
+  .row {
+    margin-left: 0vw;
+  }
+  .col-xs-6 {
+    margin-right: -18vw;
+  }
+  .mod {
+    width: 30vw;
+    height: 25vw;
+    margin-left: -1vw;
+  }
+  .row img{
+  margin-left: 1vw;
+  height: 15vh;
+  width: 15vh;
+  }
+  .round-button {
+  position: relative;
+  display: inline-block;
+  margin-left: 8vw;
+  }
+  .round-button img{
+  height: 3vh;
+  width: auto;
+  margin-left: 1vw; 
+  }
+  .row h4 {
+  padding-top: 1vh;
+  padding-bottom: 0vh;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 2.5vh;
+  }
+  .row h3 {
+  padding-top: 2vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5vh;
+  }
+  .android-navigation-container {
+    width: 100vw;
+    display: inline;
+    
+  }
+  .android-navigation {
+    width: 100vw;
+  }
+   .android-header .mdl-navigation__link {
+    color: #767777;
+    /*font-weight: 700;*/
+    padding-left: 1vw !important;
+    font-size: 1vh !important;
+  }
+  .android-logo-image {
+  height: 3vh;
+  width: 10.5vh;
+  margin-right: 8vw !important;
+  margin-left: -8vw !important;
+  }
+
+}
+
+@media (min-width: 500px) and (max-width: 600px) and (orientation: landscape) {
+  .row {
+    margin-left: 0vw;
+  }
+  .col-xs-6 {
+    margin-right: -19vw;
+  }
+  .mod {
+    width: 30vw;
+    height: 20vw;
+    margin-left: 0vw;
+  }
+  .row img{
+  margin-left: 5vw;
+  height: 32vh;
+  width: 32vh;
+  }
+  .round-button {
+  position: relative;
+  display: inline-block;
+  margin-left: 6vw;
+  }
+  .round-button img{
+  height: 8vh;
+  width: auto;
+  margin-left: 1vw; 
+  }
+  .row h4 {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 6vh;
+  }
+  .row h3 {
+  padding-top: 2vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4vh;
+  }
+  .android-navigation-container {
+    width: 70vw;
+    display: inline;
+    
+  }
+  .android-navigation {
+    width: 70vw;
+  }
+   .android-header .mdl-navigation__link {
+    color: #767777;
+    /*font-weight: 700;*/
+    font-size: 2.2vh !important;
+  }
+  .android-logo-image {
+  height: 6vh !important;
+  width: 21vh !important;
+  margin-right: 8vw !important;
+  margin-left: -8vw !important;
+  }
+
+    #row2 .mod{
+    width: 35vw;
+    height: 25vw;
+    margin-left: 2vw;
+
+  }
+  #row2 .col-xs-6{
+    margin-left: -2vw;
+    margin-right: -12vw;
+  }
+  #row2 .row img{
+    margin-left: 8vw;
+
+  }
+  #row2 .row h4 {
+  padding-top: 4vh;
+  padding-bottom: 5vh;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 7vh;
+  }
+
+  #row3 .row h4 {
+  padding-top: 4vh;
+  padding-bottom: 5vh;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 7vh;
+  }
+
+  #row3 .mod{
+    width: 35vw;
+    height: 25vw;
+    margin-left: 2vw;
+
+  }
+  #row3 .col-xs-6{
+    margin-left: -2vw;
+    margin-right: -12vw;
+  }
+  #row3 .row img{
+    margin-left: 8vw;
+
+  }
+  
+  #row2 .round-button {
+  position: relative;
+  display: inline-block;
+  margin-left: 10vw;
+  }
+
+  #row2 .round-button img{
+  height: 9vh;
+  width: auto;
+  margin-left: 1vw; 
+  }
+
+  #row3 .round-button {
+  position: relative;
+  display: inline-block;
+  margin-left: 10vw;
+  }
+
+  #row3 .round-button img{
+  height: 9vh;
+  width: auto;
+  margin-left: 1vw; 
+  }
+
+
+}
+
+
+@media (min-width: 300px) and (max-width: 400px) and (orientation: portrait) {
+  .row {
+    margin-left: 0vw;
+  }
+  .col-xs-6 {
+    margin-right: -20vw;
+  }
+  .mod {
+    width: 30vw;
+    height: 25vw;
+    margin-left: -1vw;
+  }
+  .row img{
+  margin-left: 1vw;
+  height: 15vh;
+  width: 15vh;
+  }
+  .round-button {
+  position: relative;
+  display: inline-block;
+  margin-left: 6vw;
+  }
+  .round-button img{
+  height: 4vh;
+  width: auto;
+  margin-left: 1vw; 
+  }
+  .row h4 {
+  padding-top: 0vh;
+  padding-bottom: 0vh;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 2.5vh;
+  }
+  .row h3 {
+  padding-top: 2vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5vh;
+  }
+  .android-navigation-container {
+    width: 100vw;
+    display: inline;
+    
+  }
+  .android-navigation {
+    width: 100vw;
+  }
+   .android-header .mdl-navigation__link {
+    color: #767777;
+    /*font-weight: 700;*/
+    padding-left: 1vw !important;
+    font-size: 1.2vh !important;
+  }
+  .android-logo-image {
+  height: 3vh;
+  width: 10.5vh;
+  margin-right: 14vw !important;
+  margin-left: -14vw !important;
+  }
+  #row2 .col-xs-6{
+    margin-left: -2vw;
+    margin-right: -12vw;
+  }
+  #row3 .col-xs-6{
+    margin-left: -2vw;
+    margin-right: -12vw;
+  }
+
+}
+
+@media (min-width: 400px) and (max-width: 500px) and (orientation: landscape) {
+  
+  .col-xs-6 {
+    margin-right: -20vw;
+  }
+  .mod {
+    width: 30vw;
+    height: 25vw;
+    margin-left: 2vw;
+  }
+  .row img{
+  margin-left: 5vw;
+  height: 32vh;
+  width: 32vh;
+  }
+  .round-button {
+  position: relative;
+  display: inline-block;
+  margin-left: 6vw;
+  }
+  .round-button img{
+  height: 9vh;
+  width: auto;
+  margin-left: 1vw; 
+  }
+  .row h4 {
+  padding-top: 2vh;
+  padding-bottom: 3vh;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 5.5vh;
+  }
+  .row h3 {
+  padding-top: 2vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4.5vh;
+  }
+  .android-navigation-container {
+    width: 70vw;
+    display: inline;
+    
+  }
+  .android-navigation {
+    width: 70vw;
+  }
+   .android-header .mdl-navigation__link {
+    color: #767777;
+    /*font-weight: 700;*/
+    font-size: 2vh !important;
+  }
+  .android-logo-image {
+  height: 6vh !important;
+  width: 21vh !important;
+  margin-right: 8vw !important;
+  margin-left: -8vw !important;
+  }
+  #row2 .mod{
+    width: 35vw;
+    height: 25vw;
+    margin-left: 2vw;
+
+  }
+  #row2 .col-xs-6{
+    margin-left: -2vw;
+    margin-right: -12vw;
+  }
+  #row2 .row img{
+    margin-left: 8vw;
+
+  }
+
+  #row3 .mod{
+    width: 35vw;
+    height: 25vw;
+    margin-left: 2vw;
+
+  }
+  #row3 .col-xs-6{
+    margin-left: -2vw;
+    margin-right: -12vw;
+  }
+  #row3 .row img{
+    margin-left: 8vw;
+
+  }
+  
+  #row2 .round-button {
+  position: relative;
+  display: inline-block;
+  margin-left: 10vw;
+  }
+
+  #row2 .round-button img{
+  height: 9vh;
+  width: auto;
+  margin-left: 1vw; 
+  }
+
+  #row3 .round-button {
+  position: relative;
+  display: inline-block;
+  margin-left: 10vw;
+  }
+
+  #row3 .round-button img{
+  height: 9vh;
+  width: auto;
+  margin-left: 1vw; 
+  }
+
 }
 
 ::-moz-selection {
@@ -179,8 +828,8 @@ h1 {
 
 
 .android-logo-image {
-  height: 40px;
-  width: 140px;
+  height: 4vh;
+  width: 14vh;
 }
 
 
@@ -208,7 +857,7 @@ h1 {
     -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1;
-    width: 500px;
+    width: 50vw;
     -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
         width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
             transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
@@ -222,7 +871,7 @@ h1 {
     -webkit-justify-content: flex-end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    width: 800px;
+    width: 80vw;
   }
 
   .android-search-box.is-focused ~ .android-navigation-container {
@@ -280,7 +929,7 @@ h1 {
   }
 
     .android-drawer .android-logo-image {
-      position: absolute;
+      position: relative;
       bottom: 16px;
     }
 
@@ -778,23 +1427,7 @@ h2{
 
 
 /**** Mobile layout ****/
-@media (max-width: 900px) {
-  .android-navigation-container {
-    display: none;
-  }
 
-  .android-title {
-    display: none !important;
-  }
-
-  .android-mobile-title {
-    display: block !important;
-    position: absolute;
-    left: calc(50% - 70px);
-    top: 12px;
-    -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-            transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  }
 
   .android-search-box.is-focused ~ .android-mobile-title {
     opacity: 0;

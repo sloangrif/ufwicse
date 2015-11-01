@@ -26,14 +26,14 @@
 
     <!-- Page styles -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-	
-	<!-- Favicon -->
-	<link rel='shortcut icon' href='images/favicon.ico'/ >
-	
+  <!-- Favicon -->
+  <link rel='shortcut icon' href='images/favicon.ico'/ >
     <style>
     #view-source {
       position: fixed;
@@ -46,7 +46,8 @@
     }
     </style>
   </head>
- 
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
       <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row" style = "margin-right:5px">
@@ -61,27 +62,26 @@
             <nav class="android-navigation mdl-navigation">
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="index.html">Home</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="events.html">Events</a>
-			  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="swag.html">Swag</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="swag.html">Swag</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="members.html">Contact</a>
               
             </nav>
           </div>
-
-
+            
+          
         </div>
       </div>
 
-      <div class="android-be-together-section-events mdl-typography--text-center">
-	  <div class="mdl-typography--display-1-color-contrast" style = "color:white; text-align:center; font-size: 55px; padding-top:350px">Event Calendar</div>
-			 <div class="mdl-typography--display-1-color-contrast" style = "color:white; margin-top: 40px; text-align:center; font-size: 30px">Check out WiCSE's upcoming events!</div>
-	  </div>
-			 
-      <div class = "responsive-iframe-container" style = "padding-left: 300px; padding-right: 300px; margin-bottom:100px; margin-top:50px"><iframe class="responsive-iframe-container" src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ccccff&amp;src=291pbpr99guo0kl6md2g0nghk8%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FNew_York" style=" border-width:0 " width="900" height="800" frameborder="0" scrolling="no"></iframe></div></p>
-	<div style = "padding-left:1%;">
-		<img src= "images/gbmfall.jpg" style = "border-radius:100px; margin-left:50px; margin-bottom:100px; height:400px; width:550px"/>
-		<img src= "images/swamphacks.jpg" style = "border-radius:100px; margin-left:50px; margin-bottom:100px; height:400px; width:550px"/>
-		<img src= "images/aggregator.jpg" style = "border-radius:100px; margin-left:50px; margin-bottom:100px; height:400px; width:550px"/>
-	</div>
+      
+    
+
+    <div class="event-landing">
+      <h1>Event Calendar</h1>
+      <h2>Check out WiCSE's upcoming events</h2>
+    </div>
+       
+      <iframe src="https://www.google.com/calendar/embed?src=291pbpr99guo0kl6md2g0nghk8%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width:100% frameborder="0" scrolling="no"></iframe>
+  
         <footer class="android-footer mdl-mega-footer">
           <div class="mdl-mega-footer--top-section">
             <div class="mdl-mega-footer--right-section">

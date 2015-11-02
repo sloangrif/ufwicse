@@ -171,6 +171,86 @@ h1 {
   margin-right: 50px;
 }
 
+.swagpage {
+  width: 98vw;
+  height: 35vh;
+  margin-bottom: 0;
+  margin-top: 1vh;
+  border-radius: 10px;
+  margin-left: 1vw;
+}
+
+.swagpage img {
+  width: 98vw;
+  height: 35vh;
+  border-radius: 10px;
+}
+
+.swagpage h2{
+  text-align: center;
+  width: 100%; height: 0;
+  color: #ddd;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 3.5em; 
+  position:absolute;
+  margin-top: 12vh;
+ 
+}
+.merch {
+  margin-top: 10vh;
+  margin-left: 5vh;
+  height: 50vh;
+}
+.merch img{
+  width: 25vw;
+  height: auto;
+}
+.merch p{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  background-color: #ffefef;
+  width: 35vw;
+  height: 20vw;
+  border-radius: 10px;
+  float: right;
+  margin-right: 4vw;
+  margin-top: 0vh;
+  padding-top: 8vh;
+}
+.merch2 {
+  margin-top: -10vh;
+}
+.merch2 img{
+  width: 27vw;
+  height: auto;
+  float: right;
+  margin-left: 50vw;
+  margin-right: 5vw;
+  padding-top: -2vh;
+}
+
+.merch2 .image2{
+  padding-right: 20vw;
+  width: 22vw;
+  height: auto;
+  padding-top: 0;
+}
+
+.merch2 p{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  background-color: #ffefef;
+  width: 35vw;
+  height: 20vw;
+  border-radius: 10px;
+  float: left;
+  margin-top: -30vh;
+  padding-top: 8vh;
+  margin-left: 6vw;
+}
 
 @media (min-width: 1900px) and (max-width: 2000px) {
   .android-navigation-container {
@@ -216,7 +296,30 @@ h1 {
   font-size: 2.5vh !important;
   margin-top: 10vh !important;
 }
+.merch p{
+  font-size: 3vh;
+  line-height: 4vh;
+  margin-top: 0vh;
+  padding-top: 12vh;
+  margin-left: 6vw;
+  }
+  .merch2 p{
+  font-size: 3vh;
+  line-height: 4vh;
+  margin-left: 6vw;
+  margin-top: -40vh;
+  }
+  .merch2 img{
+  margin-left: 50vw;
+  margin-right: 5vw;
+  padding-top: 10vh;
 
+}
+
+.merch2 .image2{
+  padding-right: 20vw;
+  padding-top: 0;
+}
 }
 
 @media (min-width: 1300px) and (max-width: 1400px) {
@@ -227,9 +330,31 @@ h1 {
   
   margin-top: 10vh !important;
   margin-bottom: 4vh;
-
-  
   }
+  .merch p{
+  font-size: 3vh;
+  line-height: 4vh;
+  margin-top: 0vh;
+  padding-top: 12vh;
+  margin-left: 6vw;
+  }
+  .merch2 p{
+  font-size: 3vh;
+  line-height: 4vh;
+  margin-left: 6vw;
+  margin-top: -40vh;
+  }
+  .merch2 img{
+  margin-left: 50vw;
+  margin-right: 5vw;
+  padding-top: 10vh;
+
+}
+
+.merch2 .image2{
+  padding-right: 20vw;
+  padding-top: 0;
+}
 }
 @media (min-width: 800px) and (max-width: 900px){
   .row {
@@ -477,7 +602,22 @@ h1 {
     /*font-weight: 700;*/
     font-size: 1.7vh !important;
   }
-  
+  .merch p{
+    font-size: 1.9vh !important;
+    line-height: 2vh !important;
+    padding-top: 5vh;
+
+  }
+  .merch2 p{
+    font-size: 1.9vh !important;
+    line-height: 2vh !important;
+    margin-top: -20vh;
+    padding-top: 5vh;
+  }
+  .merch2 {
+  margin-top: -25vh;
+  }
+
 
 }
 
@@ -562,6 +702,14 @@ h1 {
  
   margin-top: 5vh !important;
 }
+.merch2 {
+  margin-top: 0vh;
+}
+.merch2 p{
+  margin-top: -40vh;
+  padding-top: 8vh;
+  
+}
 
 }
 
@@ -642,6 +790,53 @@ h1 {
   font-size: 2.5vh;
   text-align: center;
   margin-right: 10vw;
+}
+.merch img{
+  width: 25vw;
+  height: auto;
+}
+.merch p{
+  font-size: 1.3vh !important;
+  line-height: 2vh !important;
+  width: 35vw;
+  height: 25vw;
+  margin-top: 0vh;
+  padding-top: 2vh;
+}
+.merch {
+  margin-top: 8vh;
+  margin-left: 5vh;
+  height: 40vh;
+}
+.merch2 {
+  margin-top: -20vh;
+}
+.merch2 img{
+  width: 27vw;
+  height: auto;
+  float: right;
+  margin-left: 50vw;
+  margin-right: 5vw;
+  padding-top: -20vh;
+}
+
+.merch2 .image2{
+  padding-right: 20vw;
+  width: 22vw;
+  height: auto;
+  padding-top: 0;
+}
+
+.merch2 p{
+  font-size: 1.3vh !important;
+  line-height: 2vh !important;
+  width: 35vw;
+  height: 20vw;
+  border-radius: 10px;
+  float: left;
+  margin-top: -15vh;
+  padding-top: 2vh;
+  margin-left: 6vw;
 }
 
 }
@@ -800,6 +995,21 @@ h1 {
   margin-bottom: -5vh;
   text-align: center;
 }
+.merch2 {
+  margin-top: 0vh;
+}
+.merch2 p{
+  margin-top: -40vh;
+  padding-top: 8vh;
+  
+}
+.merch p{
+  line-height: 5vh;
+  font-size: 3vh;
+}
+.merch2 p{
+  font-size: 3vh;
+}
 
 }
 
@@ -891,6 +1101,60 @@ h1 {
   line-height: 4vh;
   margin-top: 2vh;
   margin-bottom: 2vh;
+}
+.merch img{
+  width: 25vw;
+  height: auto;
+}
+.merch p{
+  font-size: 1.3vh !important;
+  line-height: 2vh !important;
+  width: 35vw;
+  height: 25vw;
+  margin-top: 0vh;
+  padding-top: 2vh;
+}
+.merch {
+  margin-top: 8vh;
+  margin-left: 5vh;
+  height: 40vh;
+}
+.merch2 {
+  margin-top: -20vh;
+}
+.merch2 img{
+  width: 27vw;
+  height: auto;
+  float: right;
+  margin-left: 50vw;
+  margin-right: 5vw;
+  padding-top: -20vh;
+}
+
+.merch2 .image2{
+  padding-right: 20vw;
+  width: 22vw;
+  height: auto;
+  padding-top: 0;
+}
+
+.merch2 p{
+  font-size: 1.3vh !important;
+  line-height: 2vh !important;
+  width: 35vw;
+  height: 20vw;
+  border-radius: 10px;
+  float: left;
+  margin-top: -15vh;
+  padding-top: 2vh;
+  margin-left: 6vw;
+}
+.swagpage h2{
+  
+  font-size: 3em; 
+ 
+  margin-top: 12vh;
+ 
 }
 
 }
@@ -1048,6 +1312,17 @@ iframe {
   margin-left: 0vw;
   font-size: 2.5vh !important;
   margin-top: -5vh;
+}
+.merch p{
+  font-size: 3vh;
+  line-height: 5vh;
+}
+.merch2 p{
+  font-size: 3vh;
+  line-height: 5vh;
+}
+.swagpage h2{
+  font-size: 8vh;
 }
 
 }
@@ -1211,24 +1486,7 @@ iframe {
 
 
 
-.swagpage {
-  position: relative;
-  height: 300px;
-  width: auto;
-  margin-bottom: 0px;
 
-  background: 
-
-  url('images/gator.jpg') center 30% no-repeat;
-  
-  /*background: 
-    
-    linear-gradient(
-      rgba(255, 0, 0, 0.25), 
-      rgba(255, 0, 0, 0.25)
-    );*/
-  background-size: cover;
-}
 
 h2{
 	color: white;

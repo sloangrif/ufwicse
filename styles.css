@@ -1271,6 +1271,27 @@ h1 {
   }
 
 }
+.club-landing{
+  background-color: #ffecee;
+  width: 95vw;
+  height: 38vh;
+  margin-left: 2vw; 
+  border-radius: 10px;
+  margin-bottom: 5vh;
+  margin-top: 2vh;
+}
+.club-landing h1{
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 10vh;
+  margin-top: -4vh;
+  margin-bottom: 2vh;
+  padding-top: 8vh
+}
+.club-landing img{
+  width: 30vw;
+  height: auto;
+  margin-left: 32.5vw;
+}
 .event-landing{
   background-color: #2bfcc9;
   width: 90vw;

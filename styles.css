@@ -63,8 +63,8 @@ h1 {
   
   margin-left: 6vw;
   float: none;
-  height: 34vh;
-  width: 34vh;
+  height: 30vh;
+  width: 30vh;
   
 }
 
@@ -90,7 +90,7 @@ h1 {
 }
 
 .round-button img{
-  height: 8vh;
+  height: 6vh;
   width: auto;
   position: relative;
   display: inline-block;

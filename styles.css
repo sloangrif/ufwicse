@@ -321,6 +321,16 @@ h1 {
   padding-right: 20vw;
   padding-top: 0;
 }
+.about-text {
+  margin-left: 50vw;
+  font-size: 2.5vh !important;
+  margin-top: 0vh !important;
+  }
+  .club-landing img{
+  width: 30vw;
+  height: auto;
+  margin-left: 32.5vw;
+}
 }
 
 @media (min-width: 1300px) and (max-width: 1400px) {

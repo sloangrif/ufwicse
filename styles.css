@@ -71,7 +71,8 @@ h1 {
 }
 
 .row img{
-  margin: 0 auto;
+  margin: 0 3vw;
+
   height: 30vh;
   width: 30vh;
 }

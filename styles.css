@@ -45,27 +45,35 @@ h1 {
   text-decoration: underline;
 }
 
+#row1{
+  display: flex;
+  justify-content: center;
+
+}
+#row2{
+  display: flex;
+  justify-content: center;
+}
+#row3{
+  display: flex;
+  justify-content: center;
+}
 .row {
   padding-top: 5vh;
-  justify-content: center;
-  
+  margin: 0 auto;
  }
- 
+
 .mod {
   background-color: #fff2ec;
-  border-radius: 10px;
+  border-radius: 10px; 
   width: 25vw;
   height: 15vw;
-  margin-left: 3vw;
 }
 
 .row img{
-  
-  margin-left: 6vw;
-  float: none;
+  margin: 0 auto;
   height: 30vh;
   width: 30vh;
-  
 }
 
 .row h3 {
@@ -97,15 +105,7 @@ h1 {
   margin-left: 1vw; 
 }
 
-#row2 .row {
-  display: flex;
-  justify-content: center;
-}
 
-#row3 .row {
-  display: flex;
-  justify-content: center;
-}
 
 .about-text {
   margin-left: 50vw;
@@ -342,6 +342,7 @@ h1 {
   padding-right: 20vw;
   padding-top: 0;
 }
+
 /*.club-landing h1{
   margin-top: -4vh;
   margin-bottom: 2vh;
@@ -353,20 +354,7 @@ h1 {
   margin-left: 32.5vw;
 
 }*/
-.mod {
-  background-color: #fff2ec;
-  border-radius: 10px;
-  width: 25vw;
-  height: 15vw;
-  margin-left: 3vw;
-  justify-content: center !important;
-}
-.row img{
-  margin-left: 3vw;
-  height: 26vh;
-  width: 26vh;
-  justify-content: center !important;
-  }
+
 
 }
 
@@ -405,31 +393,16 @@ h1 {
 }
 }
 @media (min-width: 800px) and (max-width: 900px){
-  .row {
-    margin-left: 4vw;
-  }
-  .col-xs-6 {
-    margin-right: -18vw;
-  }
-  .mod {
-    width: 25vw;
-    height: 15vw;
-    margin-left: 1vw;
-  }
-  .row img{
-  margin-left: 3vw;
-  height: 26vh;
-  width: 26vh;
-  }
+
   .round-button {
   position: relative;
   display: inline-block;
-  margin-left: 6vw;
+  
   }
   .round-button img{
   height: 5vh;
   width: auto;
-  margin-left: 1vw; 
+  
   }
   .row h4 {
   padding-top: 1vh;
@@ -458,16 +431,7 @@ h1 {
     /*font-weight: 700;*/
     font-size: 1.7vh !important;
   }
-  #row2 .col-xs-6{
-    padding-left: 8vw;
-    margin-left: -8vw;
-    margin-right: -10vw;
-  }
-  #row3 .col-xs-6{
-    padding-left: 8vw;
-    margin-left: -8vw;
-    margin-right: -10vw;
-  }
+  
   .about-section {
     height: 65vh;
   }
@@ -496,22 +460,7 @@ h1 {
 
 @media (min-width: 1000px) and (max-width: 1200px) and (orientation: landscape) {
  
-  .row {
-    margin-left: 0vw;
-  }
- .col-xs-6 {
-    margin-right: -1vw;
-  }
-  .mod {
-    width: 30vw;
-    height: 25vw;
-    margin-left: 1vw;
-  }
-  .row img{
-  margin-left: 3vw;
-  height: 30vh;
-  width: 30vh;
-  }
+
   .round-button {
   position: relative;
   display: inline-block;

@@ -1177,7 +1177,8 @@ h1 {
   padding-top: 2vh;
   margin-left: 6vw;
 }
-.swagpage h2{
+.swagpage h1
+{
   
   font-size: 3em; 
  
@@ -1385,7 +1386,7 @@ iframe {
   font-size: 3vh;
   line-height: 5vh;
 }
-.swagpage h2{
+.swagpage h1{
   font-size: 8vh;
 }
 

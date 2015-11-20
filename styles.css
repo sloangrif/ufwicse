@@ -192,7 +192,7 @@ h1 {
   text-align: center;
   width: 100%; height: 0;
   color: #ddd;
-  font-family: 'Amatic SC', sans-serif;
+  font-family: 'Amatic SC', sans-serif !important;
   font-weight: 300;
   font-size: 8vh; 
   position:absolute;
@@ -338,7 +338,9 @@ h1 {
   padding-top: 10vh;
 
 }
-
+.merch2 {
+  margin-top: 0vh;
+}
 .merch2 .image2{
   padding-right: 20vw;
   padding-top: 0;
@@ -393,7 +395,9 @@ h1 {
   padding-top: 10vh;
 
 }
-
+.merch2 {
+  margin-top: 0vh;
+}
 .merch2 .image2{
   padding-right: 20vw;
   padding-top: 0;
@@ -456,6 +460,9 @@ h1 {
   
   
   }
+  .merch2 {
+  margin-top: 0vh;
+}
   .socialnet{
   margin-top: -5vh;
   }
